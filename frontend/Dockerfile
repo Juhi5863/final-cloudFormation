@@ -2,7 +2,7 @@
 FROM node:18 AS build
 
 # Accept backend URL at build time
-# help when front end call the backend url
+# help when front end call the backend api url
 ARG REACT_APP_BACKEND_URL
 ENV REACT_APP_BACKEND_URL=$REACT_APP_BACKEND_URL
 

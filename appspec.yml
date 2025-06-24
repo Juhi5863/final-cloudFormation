@@ -4,6 +4,7 @@ files:
   - source: k8s/
     destination: /tmp/k8s/
 
+#Hooks are scripts/commands that run at specific stages of the deployment lifecycle.
 hooks:
   AfterInstall:
     - location: /

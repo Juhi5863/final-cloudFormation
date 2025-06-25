@@ -60,7 +60,7 @@ function App() {
           value={quantity}
           onChange={(e) => setQuantity(e.target.value)}
         />
-        <button onClick={handleAddItem}>Add Item</button>
+        <button onClick={handleAddItem}>Add Items</button>
       </div>
 
       <table>
